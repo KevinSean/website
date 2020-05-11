@@ -1,0 +1,189 @@
+body {
+  background-color: palevioletred;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width 100%;
+  height: 60px;
+  display: inline-block;
+  border: 1px solid gray;
+  background: linear-gradient(to right, gray,white,gray);
+  width: 100%;
+  z-index: 1;
+}
+
+header h1{
+  color: white;
+  font-family: arial;
+  font-size: 30px;
+  font-weight: 150;
+  position: relative;
+  display: inline;
+}
+header h2{
+  color: lightblue;
+  font-family: arial;
+  font-size: 32px;
+  font-weight: 700;
+  position: relative;
+  display: inline;
+}
+
+
+header nav {
+  position: relative;
+  float: right;
+  margin: 0px 20px;
+}
+
+header span{
+  color: white;
+  font-family: arial;
+  border: solid 1px white;
+}
+
+.right {
+  display: inline-block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 200px;
+  margin: 0px;
+  background-image: url("https://wallup.net/wp-content/uploads/2018/03/19/580162-pattern-vertical-portrait_display-digital_art-748x1330.jpg");
+  background-size: 300%;
+  border: solid 1px black;
+  z-index: -1;
+}
+
+.right h1{
+  margin: 25px;
+  font-family: arial;
+  font-size: 20px;
+}
+
+.right p{
+  margin: 8px;
+  font-family: arial;
+  font-size: 14px;
+}
+
+.mainone {
+  display: inline-block;
+  position: relative;
+  top: 65px;
+  left: 205px;
+  height: auto;
+  width: calc(100% - 250px);
+  border-style: solid;
+  border: solid 1px black;
+  padding: 15px;
+  margin: 0px 0px 0px 10px;
+  z-index: -1;
+  text-align: center;
+  background-image: url("https://media.gettyimages.com/photos/textured-rainbow-painted-background-picture-id534129810?b=1&k=6&m=534129810&s=612x612&w=0&h=2O-UQ2ueE7kbYFsz8LpOWtRR2AJPji8X01PqjKyVpeE=");
+  background-size: 100%;
+}
+
+.mainone h1{
+  color: white;
+  font-family: arial;
+  font-size: 24px;
+  font-weight: 150;
+  position: relative;
+  display: inline;
+}
+.mainone h2{
+  color: lightblue;
+  font-family: arial;
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  display: inline;
+}
+
+.mainone p{
+  color: white;
+  font-family: arial;
+  font-size: 15px;
+  font-weight: 150;
+}
+
+.mainone h3{
+  font-family: 'times new roman';
+  font-size: 20px;
+  font-weight: 600;
+  background: white;
+  color: pink;
+}
+.feature1 {
+  display: inline-block;
+  position: relative;
+  top: 65px;
+  left: 205px;
+  height: auto;
+  width: calc(50% - 150px);
+  border-style: solid;
+  border: solid 1px black;
+  padding: 15px;
+  margin: 10px 20px 10px 10px ;
+  z-index: -1;
+  text-align: center;
+  float: left;
+  background-image: url("https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-1.2.1&w=1000&q=80")
+}
+
+.feature1 h1 {
+  display: block;
+  width: calc(40% - 120px);
+  position: relative;
+  left: 36%;
+  font-family: arial;
+  color: white;
+  font-size: 24px;
+  background-image: url("https://marketplace.canva.com/EAD297uecnM/2/0/1600w/canva-rainbow-gradient-pink-orange-and-blue-zoom-virtual-background-VwJMC37j5jQ.jpg");
+  border: solid 1px cyan;
+  padding: 6px 16px;
+}
+
+.feature2 {
+  display: inline-block;
+  position: relative;
+  top: 65px;
+  left: 205px;
+  height: auto;
+  width: calc(50% - 150px);
+  border-style: solid;
+  border: solid 1px black;
+  padding: 15px;
+  margin: 10px 20px 10px 0px;
+  z-index: -1;
+  text-align: center;
+  float: left;
+  background-image: url("https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-1.2.1&w=1000&q=80");
+}
+
+.feature2 h1 {
+  display: block;
+  width: calc(40% - 120px);
+  position: relative;
+  left: 36%;
+  font-family: arial;
+  color: white;
+  font-size: 24px;
+  background-image: url("https://marketplace.canva.com/EAD297uecnM/2/0/1600w/canva-rainbow-gradient-pink-orange-and-blue-zoom-virtual-background-VwJMC37j5jQ.jpg");
+  border: solid 1px cyan;
+  padding: 6px 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  position: static;
+  width: calc(40% - 20px);
+}
